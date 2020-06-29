@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include "scanner.h"
-//#include "parser.h"
-//#include "stmtlist.h"
 
 int main(int argc, char* argv[]) {
   if (argc < 2) {
-    fprintf(stdout, "Usage: %s source\n", argv[0]);
+    fprintf(stdout, "Usage: %s [c source file]\n", argv[0]);
     return 0;
   }
   Scanner scanner = scanner_create(argv[1]);

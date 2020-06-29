@@ -1,0 +1,33 @@
+.directive {
+  color: #804000;
+}
+
+.instword {
+  color: #0000FF;
+  font-weight: bold;
+}
+
+.identifier {
+  color: #000000;
+}
+
+.typeword {
+  color: #8000FF;
+}
+
+.number {
+  color: #FF8000;
+}
+
+.string {
+  color: #808080;
+}
+
+.punct {
+  color: #000080;
+  font-weight: bold;
+}
+
+.comment {
+  color: #008000;
+}

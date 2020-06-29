@@ -20,7 +20,7 @@ typedef enum {
   COMMA
 } TokenType;
 
-char* keywords[NUMKEYWORDS];
-bool typewords[NUMKEYWORDS];
+extern char* keywords[NUMKEYWORDS];
+extern bool typewords[NUMKEYWORDS];
 
 #endif

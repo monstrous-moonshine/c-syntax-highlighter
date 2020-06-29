@@ -10,11 +10,6 @@ int main(int argc, char* argv[]) {
   }
   Scanner scanner = scanner_create(argv[1]);
   TokenList tokens = scanner_scan(scanner);
-  //Parser parser = parser_create(tokens);
-  //StmtList stmts = parser_parse(parser);
-  //print_stmtlist(stmts);
-  //stmtlist_destroy(stmts);
-  //parser_destroy(parser);
   tokenlist_print(tokens);
   tokenlist_destroy(tokens);
   scanner_destroy(scanner);
